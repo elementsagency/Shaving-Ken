@@ -259,7 +259,7 @@ h1{
     margin-bottom: 75px;
     margin-right: 250px;
 }
-@media (min-width: 992px){
+@media (min-width: 768px){
     h1{
         font-size: 70px;
         line-height: 110%;
