@@ -241,7 +241,7 @@ body.lock{
 }
 @media only screen and (max-width: 991px) and (orientation: landscape){
     #main{
-        padding: 0px 0px 50px;
+        padding: 50px 0px;
     }
 }
 #main .container{
@@ -250,6 +250,11 @@ body.lock{
 @media only screen and (min-width: 992px){
     #main .container{
         margin-top: 250px;
+    }
+}
+@media only screen and (max-width: 991px) and (orientation: landscape){
+    #main .container{
+        margin-top: 100px;
     }
 }
 h1{
