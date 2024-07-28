@@ -241,7 +241,7 @@ body.lock{
 }
 @media only screen and (max-width: 991px) and (orientation: landscape){
     #main{
-        padding: 0px;
+        padding: 0px 0px 50px;
     }
 }
 #main .container{
