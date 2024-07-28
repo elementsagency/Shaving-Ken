@@ -231,14 +231,6 @@ body.lock{
     position: relative;
     top: 60px;
 }
-@media (orientation:landscape) and (max-width: 768px){
-    #main{
-         padding: 0px;
-    }
-	#main .container{
-    		margin-top: 0px;
-	}
-}
 @media (min-width: 992px){
 	#main{
         top: 80px;
@@ -289,13 +281,6 @@ h3{
     align-items: start;
 }
 @media (min-width: 768px){
-    .main__body{
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-    }
-}
-@media (orientation:landscape){
     .main__body{
         flex-direction: row;
         justify-content: start;
